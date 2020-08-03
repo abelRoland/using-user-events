@@ -5,8 +5,8 @@ const colorCodeToStyleTests = [
   { name: 'Test 4', args: ['1', '3', '5', '7', '9', 'b'], expected: 'background-color: #13579b;' },
 ];
 
-function colorCodeToStyle(a, __, c, d, __, f) {
-  return 'background-color: #' + __ + b + __ + d + e + __ + ';';
+function colorCodeToStyle(a, b, c, d, e, f) {
+  return 'background-color: #' + a + b + c + d + e + f + ';';
 }
 
 testing(colorCodeToStyle, colorCodeToStyleTests);

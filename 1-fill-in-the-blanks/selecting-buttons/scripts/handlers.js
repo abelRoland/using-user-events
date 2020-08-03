@@ -1,12 +1,12 @@
 function identifyButton(event) {
   // read & process user input
-  const buttonText = event.target.__;
+  const buttonText = event.target.innerHTML;
 
   // execute core logic
   const centerMessage = generateMessage(buttonText);
 
   // display results to user
-  document.getElementById('__').innerHTML = centerMessage;
+  document.getElementById('center-text').innerHTML = centerMessage;
 
   // log action for developers
   console.log('\n-- identifyButton --');
@@ -16,7 +16,7 @@ function identifyButton(event) {
 
 function clearOutput() {
   // execute core logic
-  const centerMessage = __('');
+  const centerMessage = generateMessage('');
 
   // render results to user
   document.getElementById('center-text').innerHTML = centerMessage;
@@ -27,10 +27,10 @@ function clearOutput() {
 
 function alertButtonName(event) {
   // process user event
-  const keyPressed = __.keyCode;
+  const keyPressed = event.keyCode;
 
   // execute core logic
-  const isEnter = generateMessage(__);
+  const isEnter = generateMessage(keyPressed);
 
   // render results to user
   if (isEnter) {

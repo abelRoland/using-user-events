@@ -1,4 +1,4 @@
-__ {
+div {
   height: 10vh;
   width: 10vw;
   position: fixed;
@@ -24,7 +24,7 @@ __ {
   left: 05vw;
 }
 
-#__ {
+#yellow {
   top: 62vh;
   left: 02vw;
 }

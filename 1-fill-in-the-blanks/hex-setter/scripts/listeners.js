@@ -1,1 +1,1 @@
-document.getElementById('user-action').addEventListener('__', setColorHandler);
+document.getElementById('user-action').addEventListener('click', setColorHandler);
