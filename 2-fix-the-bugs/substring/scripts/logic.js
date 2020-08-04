@@ -9,7 +9,7 @@ const getPartialStringTests = [
 
 // fix the function
 function getPartialString(str, beginIndex, endIndex) {
-  return str.substring(beginIndex, endIndex);
+  return str.substr(beginIndex, endIndex);
 }
 
 testing(getPartialString, getPartialStringTests);

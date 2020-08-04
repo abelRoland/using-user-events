@@ -1,2 +1,3 @@
-document.getElementById('user-input').addEventListener('change', displaysubString);
+document.getElementById('user-input').addEventListener('change', displaySubString);
+
 

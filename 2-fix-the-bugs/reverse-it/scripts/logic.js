@@ -8,7 +8,7 @@ const reverseTests = [
 ];
 
 function reverse(str) {
-  return str.split('').join('').reverse();
+  return str.split('').reverse().join('');
 }
 
-test(reverse, reverseTests);
+testing(reverse, reverseTests);

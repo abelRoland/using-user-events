@@ -1,5 +1,6 @@
 function showResult() {
   // read user input
+  //debugger
   const firstNumberValue = document.getElementById('first-number').value;
   const firstNumber = Number(firstNumberValue);
 
@@ -12,7 +13,7 @@ function showResult() {
   const result = doMath(operation, secondNumber, firstNumber);
 
   // communicate result to user
-  document.getElementById('program-output').innerHTML = reslut;
+  document.getElementById('program-output').innerHTML = result;
 
   // log action for developers
   console.log('\n-- user action --');

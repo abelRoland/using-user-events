@@ -14,11 +14,11 @@ const typeCasterTests = [
 ];
 
 function typeCaster(value, type) {
-  if (type !== 'string') {
+  if (type === 'string') {
     return String(value);
-  } else if (type !== 'number') {
+  } else if (type === 'number') {
     return Number(value);
-  } else if (type !== 'boolean') {
+  } else if (type === 'boolean') {
     return Boolean(value);
   } else {
     return undefined;
