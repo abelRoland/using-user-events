@@ -1,0 +1,33 @@
+body,
+html {
+	font-family: 'Arial', sans-serif;
+	height: 100%;
+    display: grid;
+}
+
+section {
+	min-width: 800px;
+	height: auto;
+	border-radius: 10px;
+	padding: 0;
+	margin: auto;
+    text-align: center;
+    }
+
+.formulaire {
+    border: none;
+    padding: 20px;
+}
+
+input {
+    border: 1px solid #c5c5c5;
+    width: 550px;
+    border-radius: 25px;
+    padding: 10px 30px;
+    outline: none;
+    font-size: 20px;
+}
+
+input:hover{
+    box-shadow: 0 0 3px #aaa;
+}

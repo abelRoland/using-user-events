@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Slidulator Challenge</title>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <script src='../../testing.js'></script>
+  <script src='./scripts/logic.js'></script>
+  <script src='./scripts/handlers.js'></script>
+</head>
+
+<body>
+  <section id='user-interface'>
+    <form id='inputs' class='formulaire'>
+      <input type="range" name='left' class='input-slider' />
+      <select name='operation'>
+          <option value='add'>+</option>
+          <option value="subtract">-</option>
+          <option value="multiply">*</option>
+          <option value='divide'>/</option>
+      </select>
+      <input type="range" name='right' class='input-slider' />
+    </form>
+    <code id='program-output' class='output-field'></code>
+  </section>
+
+  <script src='./scripts/event-listeners.js'></script>
+</body>
+
+</html>
